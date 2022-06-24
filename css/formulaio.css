@@ -1,0 +1,57 @@
+form{
+    margin: 10% 15%;
+    width: 70%;
+    box-shadow: 0 0 15px 5px;
+    border-radius: 5%;
+}
+form label {
+    margin-left: 5%;
+}
+form input{
+    border-bottom: 1px #346d8b solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 55%;
+    margin-left: 5%;
+}
+form textarea{
+    margin-left: 5%;
+    width: 80%;
+}
+button{
+   background-color: #346d8b;
+   border-radius: 20%;
+   border: 5px #346d8b solid;
+   margin-left: 40%;
+   margin-bottom: 3%;
+}
+@media (min-width: 800px){
+    form{
+        margin: 10% 15%;
+        width: 70%;
+        box-shadow: 0 0 15px 5px;
+        border-radius: 5%;
+    }
+    form label {
+        margin-left: 5%;
+    }
+    form input{
+        border-bottom: 1px #346d8b solid;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        width: 55%;
+        margin-left: 5%;
+    }
+    form textarea{
+        margin-left: 5%;
+    }
+    button{
+       background-color: #346d8b;
+       border-radius: 20%;
+       border: 5px #346d8b solid;
+       margin-left: 40%;
+       margin-bottom: 3%;
+    }
+}

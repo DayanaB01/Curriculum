@@ -1,0 +1,105 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.content{
+    background-color: rgb(241, 248, 248);
+}
+nav{
+    background-color: #346d8b;
+    margin-top: 2%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+nav h1{
+    color:aliceblue;
+    text-align: center;
+}
+nav h2{
+    color:rgb(192, 204, 204);
+    text-align: center;
+}
+img{
+    border-radius: 100%;
+    margin-top: 10%;
+    margin-left: 3%;    
+    border: 3px #346d8b groove;
+}
+.sidebar{
+    background-color: rgb(201, 222, 223);
+}
+h3{
+    margin-left: 5%;
+}
+h4{
+    margin-left: 5%;
+}
+p{
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+@media (min-width: 800px){
+    .complet{
+        height: 1220px;
+        width: 65%;
+        background-color:rgb(241, 248, 248) ;
+        margin-left: 20%;
+        border-radius: 3%;
+    }
+    .content{
+        background-color: rgb(241, 248, 248);
+        float: right;
+        width: 70%;
+    }
+    nav{
+        background-color: #346d8b;
+        margin-top: 2%;
+        border-top-left-radius: 55%;
+        border-top-right-radius: 2%;
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        display: flex;
+    }
+    nav h1{
+        color:aliceblue;
+    }
+    nav h2{
+        color:rgb(192, 204, 204);
+    }
+    img{
+        border-radius: 100%;
+        margin-top: 8%;
+        margin-left: 0%;
+        border: 3px #346d8b groove;
+    }
+    .sidebar{
+        background-color: rgb(201, 222, 223);
+        width: 30%;
+        float: left;
+        border-radius: 2% ;
+    }
+    .sidebar .side{
+        margin-top:20%;
+    }
+    h3{
+        margin-left: 5%;
+        margin-top:10%;
+    }
+    
+    article{
+        border-bottom: 1px solid grey;
+    }
+    p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    a{
+        margin-left: 5%;
+        color: #346d8b;
+        text-decoration-line: none;
+    }
+}
