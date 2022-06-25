@@ -44,6 +44,10 @@ button{
         width: 55%;
         margin-left: 5%;
     }
+    form p{
+        font-size: small;
+        color:red;
+    }
     form textarea{
         margin-left: 5%;
     }

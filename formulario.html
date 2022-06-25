@@ -29,9 +29,11 @@
           <br />
           <h3>FORM</h3>
           <label for="nombre">NOMBRE:</label><br />
-          <input type="text" /><br /><br />
+          <input type="text"  id="nombre"/><br><br>
+          <p id="error" hidden>Ingrese mas de 3 caracteres</p>
           <label for="email">CORREO:</label><br />
-          <input type="email" /><br /><br />
+          <input type="email" id="correo"/><br /><br />          
+          <p id="errorCorreo" hidden>Debe tener @</p>
           <label for="mensaje">MENSAJE:</label><br />
           <textarea name="mensaje" cols="30" rows="10" placeholder="mensaje">
           </textarea
@@ -87,4 +89,5 @@
   </body>
   <link rel="stylesheet" href="css/general.css" />
   <link rel="stylesheet" href="css/formulaio.css" />
+  <script type="text/javascript" src="include/js/formulario.js"></script>
 </html>
