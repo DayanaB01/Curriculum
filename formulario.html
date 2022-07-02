@@ -33,12 +33,12 @@
           <p id="error" hidden>Ingrese mas de 3 caracteres</p>
           <label for="email">CORREO:</label><br />
           <input type="email" id="correo"/><br /><br />          
-          <p id="errorCorreo" hidden>Debe tener @</p>
+          <p id="errorCorreo" hidden>Correo no válido</p>
           <label for="mensaje">MENSAJE:</label><br />
-          <textarea name="mensaje" cols="30" rows="10" placeholder="mensaje">
+          <textarea name="mensaje" cols="30" rows="10" placeholder="mensaje" id="area">
           </textarea
-          ><br /><br />
-          <button>Enviar</button>
+          > <p id="mensaje" hidden>Debe agregar por lo menos 4 caracteres</p> <br /><br />
+          <button type="submit" id="enviar">Enviar</button>
         </form>
       </section>
       <section class="sidebar">
