@@ -25,20 +25,20 @@
             con migo. Muchas gracias.
           </p>
         </article>
-        <form action="https://formspree.io/f/mdobjjkg" method="POST">
+        <form action="https://formspree.io/f/mdobjjkg" method="POST" id="confirmar">
           <br />
           <h3>FORM</h3>
           <label for="nombre">NOMBRE:</label><br />
           <input type="text"  id="nombre"/><br><br>
-          <p id="error" hidden>Ingrese mas de 3 caracteres</p>
+          <p id="error" hidden>Ingrese mas de 3 caracteres o menos de 20</p>
           <label for="email">CORREO:</label><br />
           <input type="email" id="correo"/><br /><br />          
           <p id="errorCorreo" hidden>Correo no válido</p>
           <label for="mensaje">MENSAJE:</label><br />
-          <textarea name="mensaje" cols="30" rows="10" placeholder="mensaje" id="area">
+          <textarea name="mensaje" cols="30" rows="10" id="area">
           </textarea
-          > <p id="mensaje" hidden>Debe agregar por lo menos 4 caracteres</p> <br /><br />
-          <button type="submit" id="enviar">Enviar</button>
+          > <p id="errorMessage" hidden>Escriba un mensaje</p> <br /><br />
+          <button type="submit">Enviar</button>
         </form>
       </section>
       <section class="sidebar">
